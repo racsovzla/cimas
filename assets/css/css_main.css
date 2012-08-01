@@ -1,0 +1,40 @@
+body {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   color: #666;
+   width: 900px;
+   margin: auto;
+}
+#div_menu {
+    clear: both;
+    float: right;
+    display: block;
+}
+#div_formulario {
+   margin: auto;
+   margin-top: 50px;
+   font-size:16px;
+   padding-top: 10px;
+   padding-bottom:10px;
+   text-align:center;
+   border: dashed #000 1px;
+   width: 300px;
+}
+#div_formulario h1 {
+      margin-top: 0;
+}
+#div_formulario label {
+   font-size: 10px;
+   font-weight: bold;
+   text-transform: uppercase;
+   display: block;
+   margin-top: 10px;
+   margin-bottom: 2px;
+   clear: both;
+}
+#div_formulario .div_error {
+   font-size: 14px;
+   color: red;
+}
+#div_formulario input[type=submit] {
+   margin-top: 5px;
+}
